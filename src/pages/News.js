@@ -13,7 +13,7 @@ const { Text } = Typography;
 // const { Option } = Select;
 
 const News = ({ simplified }) => {
-  const [newsCategory, setNewsCategory] = useState("Cryptocurrency");
+  const [newsCategory] = useState("Cryptocurrency");
   // const { data } = useGetCryptosQuery(100);
   const { data: cryptoNews } = useGetCryptoNewsQuery({
     newsCategory,
