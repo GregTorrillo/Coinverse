@@ -6,7 +6,7 @@ import CryptoContext from "./CryptoContext";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Provider } from "react-redux";
 import store from "./app/store";
-import "antd/dist/antd.css";
+import 'antd/dist/antd.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
