@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
       "linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)",
     color: "white",
     [theme.breakpoints.down("xs")]: {
-      width: 80,
+      width: 50,
       height: 30,
       fontSize: 10,
     },

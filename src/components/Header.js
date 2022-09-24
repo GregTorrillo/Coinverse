@@ -42,9 +42,13 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 5,
     [theme.breakpoints.down("xs")]: {
       fontSize: 18,
-      width: 30,
-      height: 30,
-   },
+      width: 25,
+      height: 25,
+      marginRight: 0,
+    },
+    "&:hover": {
+      cursor: "pointer",
+    },
   },
   title: {
     flex: 1,
@@ -55,28 +59,28 @@ const useStyles = makeStyles((theme) => ({
     cursor: "pointer",
     [theme.breakpoints.down("xs")]: {
       fontSize: 16,
-   },
+    },
   },
   selectLoginContainer: {
     display: "flex",
     alignItems: "center",
   },
   select: {
-      width: 100,
-      height: 40,
-      border: "1px solid #383db5",
-      [theme.breakpoints.down("xs")]: {
-        width: 70,
-        height: 30,
-        marginRight: -10,
-        fontSize: 10,
-     },
+    width: 100,
+    height: 40,
+    border: "1px solid #383db5",
+    [theme.breakpoints.down("xs")]: {
+      width: 70,
+      height: 30,
+      marginRight: -10,
+      fontSize: 10,
+    },
   },
   menuItem: {
     [theme.breakpoints.down("xs")]: {
       fontSize: 10,
-   },
-  }
+    },
+  },
 }));
 
 const Header = () => {
@@ -110,7 +114,12 @@ const Header = () => {
         <Container>
           <Toolbar className={classes.headerContainer}>
             <div className={classes.logoContainer}>
-              <Typography className={classes.logo}>C</Typography>
+              <Typography
+                onClick={() => history.push("/")}
+                className={classes.logo}
+              >
+                C
+              </Typography>
               <Typography
                 onClick={() => history.push("/")}
                 className={classes.title}
@@ -127,18 +136,21 @@ const Header = () => {
               </Typography>
             </div>
             <div className={classes.selectLoginContainer}>
-              <Select className={classes.select}
+              <Select
+                className={classes.select}
                 variant="outlined"
                 value={currency}
                 onChange={(e) => setCurrency(e.target.value)}
               >
-                <MenuItem className={classes.menuItem}
+                <MenuItem
+                  className={classes.menuItem}
                   style={{ background: "rgba(36, 40, 66, 1)" }}
                   value={"USD"}
                 >
                   USD
                 </MenuItem>
-                <MenuItem className={classes.menuItem}
+                <MenuItem
+                  className={classes.menuItem}
                   style={{ background: "rgba(36, 40, 66, 1)" }}
                   value={"EUR"}
                 >

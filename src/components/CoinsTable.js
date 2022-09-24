@@ -75,7 +75,7 @@ const CoinsTable = () => {
     },
     coinsTableDesc: {
       width: "100%", 
-      marginBottom: 40, 
+      marginBottom: 20, 
       fontSize: 16, 
       fontfamily: "Montserrat", 
       color: "darkgrey",

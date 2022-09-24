@@ -22,21 +22,23 @@ const News = ({ simplified }) => {
 
   const useStyles = makeStyles((theme) => ({
     container: {
-      margin: 40,
+      margin: "0px 40px",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
       paddingBottom: 40,
+      [theme.breakpoints.down("lg")]: {
+        margin: "0px 20px",
+      },
       [theme.breakpoints.down("xs")]: {
-        margin: 10,
+        margin: 5,
         marginTop: -20,
       },
     },
     newsPageHeading: {
       width: "100%",
-      marginLeft: 20,
-      marginTop: 40,
+      margin: "40px 0px 0px 20px",
       fontSize: 34,
       fontWeight: "bold",
       fontfamily: "Montserrat",
@@ -47,14 +49,13 @@ const News = ({ simplified }) => {
     },
     newsPageHeadingDesc: {
       width: "100%",
-      margin: "0px 20px 40px 20px",
+      margin: "0px 0px 20px 20px",
       fontSize: 16,
       fontfamily: "Montserrat",
       color: "darkgrey",
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,
         margin: "0px 0px 20px 20px",
-        paddingRight: 20,
       },
     },
     row: {
@@ -82,17 +83,32 @@ const News = ({ simplified }) => {
       fontSize: 20, 
       fontWeight: "bold",
       lineHeight: 1.3,
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 16, 
+      },
+      [theme.breakpoints.down("md")]: {
+        fontSize: 22,
+      },
       [theme.breakpoints.down("xs")]: {
         paddingRight: 10,
-        fontSize: 16, 
+        fontSize: 14, 
       },
     },
     newsDesc: {
       color: "darkgrey", 
       fontSize: 16, 
       paddingBottom: 20,
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 15, 
+        paddingBottom: 10,
+        lineHeight: 1.3,
+      },
+      [theme.breakpoints.down("md")]: {
+        fontSize: 18,
+      },
       [theme.breakpoints.down("xs")]: {
-        fontSize: 14,
+        fontSize: 12,
+        paddingBottom: 10,
       },
     },
     providerContainer: {
@@ -103,6 +119,16 @@ const News = ({ simplified }) => {
     providerName: {
       paddingLeft: 10,
       color: "white",
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 12,
+      },
+      [theme.breakpoints.down("md")]: {
+        fontSize: 16,
+      },
+      [theme.breakpoints.down("xs")]: {
+        paddingLeft: 5,
+        fontSize: 12,
+      },
     },
   }));
 
