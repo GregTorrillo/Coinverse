@@ -97,6 +97,7 @@ const News = ({ simplified }) => {
     },
     providerContainer: {
       display: "flex",
+      alignItems: "center",
       justifyContent: "space-between",
     },
     providerName: {
