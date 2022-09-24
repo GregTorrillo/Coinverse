@@ -87,6 +87,9 @@ const News = ({ simplified }) => {
         fontSize: 16, 
       },
       [theme.breakpoints.down("md")]: {
+        fontSize: 18,
+      },
+      [theme.breakpoints.down("sm")]: {
         fontSize: 22,
       },
       [theme.breakpoints.down("xs")]: {
@@ -104,6 +107,9 @@ const News = ({ simplified }) => {
         lineHeight: 1.3,
       },
       [theme.breakpoints.down("md")]: {
+        fontSize: 14,
+      },
+      [theme.breakpoints.down("sm")]: {
         fontSize: 18,
       },
       [theme.breakpoints.down("xs")]: {
@@ -121,6 +127,9 @@ const News = ({ simplified }) => {
       color: "white",
       [theme.breakpoints.down("lg")]: {
         fontSize: 12,
+      },
+      [theme.breakpoints.down("md")]: {
+        fontSize: 14,
       },
       [theme.breakpoints.down("md")]: {
         fontSize: 16,
