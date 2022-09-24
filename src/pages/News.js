@@ -131,7 +131,7 @@ const News = ({ simplified }) => {
       [theme.breakpoints.down("md")]: {
         fontSize: 14,
       },
-      [theme.breakpoints.down("md")]: {
+      [theme.breakpoints.down("sm")]: {
         fontSize: 16,
       },
       [theme.breakpoints.down("xs")]: {
