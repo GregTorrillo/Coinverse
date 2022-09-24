@@ -16,8 +16,8 @@ Coinverse is a crypto currency app built using React, Redux toolkit, Material-UI
 When I improve this project, I would add a select option feature on the news page to sort by selected crypto currency news. I would also add a total global market map and inc/dec over last day feature to the homepage.
 	
 <p>
-<h4>API: CoinGecko - https://www.coingecko.com/en/api/documentation</h4>
-<h4>API: Bing News Search - https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/</h4>	
+API: CoinGecko - https://www.coingecko.com/en/api/documentation
+API: Bing News Search - https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/	
 </p>
 
 ## Techs used:
