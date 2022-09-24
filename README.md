@@ -4,7 +4,7 @@
 	  <img src="https://github.com/GregTorrillo/Coinverse/blob/master/coinverse.gif" width="100%" />
 </div>
 <br>
-<p align="center"><a href="https://coinverse-gqwvjqucl-gregtorrillo.vercel.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p>
+<p align="center"><a href="https://coinverse-8xiglwnr5-gregtorrillo.vercel.app" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p>
 
 ## Motivation: 
 As a cryto investor, I wanted to build a crypto app that could fetch data from multiple sources and create a customized watchlist.
