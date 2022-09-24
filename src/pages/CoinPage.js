@@ -58,7 +58,6 @@ const CoinPage = () => {
       [theme.breakpoints.down("md")]: {
         width: "100%",
         height: 500,
-        marginTop: 0,
       },
       [theme.breakpoints.down("xs")]: {
         width: "100%",
@@ -66,6 +65,14 @@ const CoinPage = () => {
       },
     },
     coinHeadingContainer: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      margin: "0px 0px 20px 0px",
+      [theme.breakpoints.down("lg")]: {
+        paddingTop: 20,
+      },
       [theme.breakpoints.down("md")]: {
         display: "flex",
         alignItems: "center",
@@ -73,8 +80,12 @@ const CoinPage = () => {
       },
     },
     coinImage: {
-      marginBottom: 20,
+      paddingBottom: 20,
       height: 200,
+      [theme.breakpoints.down("lg")]: {
+        height: 80,
+        paddingBottom: 0,
+      },
       [theme.breakpoints.down("md")]: {
         height: 80,
         paddingRight: 20,
@@ -88,10 +99,12 @@ const CoinPage = () => {
     },
     coinHeading: {
       fontWeight: "bold",
-      marginBottom: 40,
       fontFamily: "Montserrat",
       color: "white",
       fontSize: 50,
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 40,
+      },
       [theme.breakpoints.down("md")]: {
         fontSize: 50,
       },
@@ -103,11 +116,13 @@ const CoinPage = () => {
       width: "100%",
       fontFamily: "Montserrat",
       fontSize: 16,
-      padding: 40,
-      paddingBottom: 15,
-      paddingTop: 0,
+      padding: "0px 40px 15px 40px",
       textAlign: "justify",
       color: "darkgrey",
+      [theme.breakpoints.down("lg")]: {
+        padding: "0px 20px 20px 20px",
+        fontSize: 14,
+      },
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,
         padding: 20,
@@ -118,6 +133,9 @@ const CoinPage = () => {
       alignSelf: "start",
       padding: 40,
       width: "100%",
+      [theme.breakpoints.down("lg")]: {
+        padding: 20,
+      },
       [theme.breakpoints.down("md")]: {
         display: "flex",
         alignItems: "center",
@@ -151,6 +169,9 @@ const CoinPage = () => {
       color: "white",
       fontSize: 24,
       paddingRight: 10,
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 18,
+      },
       [theme.breakpoints.down("md")]: {
         fontSize: 22,
       },
@@ -168,6 +189,9 @@ const CoinPage = () => {
       color: "#4DB9F6",
       fontSize: 24,
       fontWeight: "bold",
+      [theme.breakpoints.down("lg")]: {
+        fontSize: 18,
+      },
       [theme.breakpoints.down("md")]: {
         fontSize: 22,
       },
