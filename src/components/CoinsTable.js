@@ -139,6 +139,9 @@ const CoinsTable = () => {
     },
     tableCell: { 
       borderBottom: "none", 
+      [theme.breakpoints.down("md")]: {
+        minWidth: 120,
+      },
       [theme.breakpoints.down("xs")]: {
         minWidth: 150,
       },
