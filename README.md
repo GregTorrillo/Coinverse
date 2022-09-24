@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<h1 align="center">COINVERSE - Crypto Currency App </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+	  <img src="https://github.com/GregTorrillo/Coinverse/blob/master/coinverse.gif" width="100%" />
+</div>
+<br>
+<p align="center"><a href="https://coinverse-ekid6cz39-gregtorrillo.vercel.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p>
 
-## Available Scripts
+## Motivation: 
+As a crytp investor, I wanted to create an app that could fetch data from multiple sources. 
+	
+## Description:
+Coinverse is a crypto currency app built using React, Redux toolkit, Material-UI and Antd libraries, Chart.js, and Firebase for login authentication.  The homepage includes a carousel with trending crypto data, a field to search by crypto name or symbol, a table consisting of coin name, price, 24h change, 24h volume, and total market cap, and pagination. A crypto coin page with coin data and chart.  A news page for the latest crypto news.  Login/Sign up can be accomplished thru username/password or google authentication. Once logged in, the user can add/remove coins to a watchlist.  
 
-In the project directory, you can run:
+## Optimization:
+When I improve this project, I would add a select option feature on the news page to sort by selected crypto currency news. I would also add a total global market map and inc/dec over last day feature to the homepage.
+	
+<h4>API: CoinGecko - https://rapidapi.com/microsoft-azure-...<h4>
+<h4>API: Bing News Search - https://rapidapi.com/microsoft-azure-...<h4>		
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Techs used:
+<p align="left">
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-JS.png" alt="javascript" width="80" height="80"/> 
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-react.png" alt="react" width="80" height="80"/> 
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-redux.png" alt="redux" width="80" height="80"/> 
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-material-ui.png" alt="material-ui" width="80" height="80"/> 
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-antd.png" alt="antd" width="80" height="80"/>
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-chartjs.png" alt="chartjs" width="80" height="80"/>
+<img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-firebase.png" alt="firebase" width="80" height="80"/>
+</p>
