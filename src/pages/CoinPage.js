@@ -38,8 +38,8 @@ const CoinPage = () => {
       display: "flex",
       margin: 40,
       [theme.breakpoints.down("md")]: {
-        flexDirection: "column",
-        alignItems: "center",
+        margin: "40px 20px",
+        paddingBottom: 40,
       },
       [theme.breakpoints.down("xs")]: {
         margin: 20,
@@ -55,10 +55,6 @@ const CoinPage = () => {
         "radial-gradient(ellipse at center, #1e2060 0%, #071623 100%, #0B2033 100%)",
       border: "1px solid #4DB9F6",
       borderRadius: 10,
-      [theme.breakpoints.down("md")]: {
-        width: "100%",
-        height: 500,
-      },
       [theme.breakpoints.down("xs")]: {
         width: "100%",
         height: 500,
@@ -87,9 +83,8 @@ const CoinPage = () => {
         paddingBottom: 0,
       },
       [theme.breakpoints.down("md")]: {
-        height: 80,
-        paddingRight: 20,
-        paddingBottom: 15,
+        height: 100,
+        padding: "0px 0px 10px 0px",
       },
       [theme.breakpoints.down("xs")]: {
         height: 60,
@@ -106,7 +101,7 @@ const CoinPage = () => {
         fontSize: 40,
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 50,
+        fontSize: 26,
       },
       [theme.breakpoints.down("xs")]: {
         fontSize: 30,
@@ -123,6 +118,9 @@ const CoinPage = () => {
         padding: "0px 20px 20px 20px",
         fontSize: 14,
       },
+      [theme.breakpoints.down("md")]: {
+        fontSize: 12,
+      },
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,
         padding: 20,
@@ -137,9 +135,7 @@ const CoinPage = () => {
         padding: 20,
       },
       [theme.breakpoints.down("md")]: {
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
+        padding: "0px 20px",
       },
       [theme.breakpoints.down("sm")]: {
         display: "flex",
@@ -157,9 +153,12 @@ const CoinPage = () => {
     },
     marketDataRow: {
       display: "flex",
+      [theme.breakpoints.down("md")]: {
+        marginBottom: -10,
+      },
       [theme.breakpoints.down("xs")]: {
         display: "flex",
-        marginBottom: -10,
+        marginBottom: -15,
       },
     },
     heading: {
@@ -173,7 +172,7 @@ const CoinPage = () => {
         fontSize: 18,
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 22,
+        fontSize: 12,
       },
       [theme.breakpoints.down("sm")]: {
         fontSize: 18,
@@ -193,7 +192,7 @@ const CoinPage = () => {
         fontSize: 18,
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 22,
+        fontSize: 12,
       },
       [theme.breakpoints.down("sm")]: {
         fontSize: 18,
@@ -212,7 +211,8 @@ const CoinPage = () => {
         ? "linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)"
         : "linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)",
       [theme.breakpoints.down("md")]: {
-        // marginTop: -30,
+        height: 40,
+        fontSize: 10,
       },
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,

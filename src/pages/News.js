@@ -87,7 +87,7 @@ const News = ({ simplified }) => {
         fontSize: 16, 
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 18,
+        fontSize: 16,
       },
       [theme.breakpoints.down("sm")]: {
         fontSize: 22,
@@ -107,7 +107,7 @@ const News = ({ simplified }) => {
         lineHeight: 1.3,
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 14,
+        fontSize: 12,
       },
       [theme.breakpoints.down("sm")]: {
         fontSize: 18,
@@ -129,7 +129,7 @@ const News = ({ simplified }) => {
         fontSize: 12,
       },
       [theme.breakpoints.down("md")]: {
-        fontSize: 14,
+        fontSize: 12,
       },
       [theme.breakpoints.down("sm")]: {
         fontSize: 16,
