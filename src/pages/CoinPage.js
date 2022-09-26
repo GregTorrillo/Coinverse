@@ -41,8 +41,17 @@ const CoinPage = () => {
         margin: "40px 20px",
         paddingBottom: 40,
       },
+       [theme.breakpoints.down("sm")]: {
+        margin: 20,
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      },
       [theme.breakpoints.down("xs")]: {
         margin: 20,
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
       },
     },
     sidebar: {
