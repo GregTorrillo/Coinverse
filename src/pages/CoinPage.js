@@ -89,11 +89,13 @@ const CoinPage = () => {
       },
        [theme.breakpoints.down("sm")]: {
         display: "flex",
+        flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
       },
        [theme.breakpoints.down("xs")]: {
         display: "flex",
+        flexDirection: "row",
         alignItems: "center",
         justifyContent: "center",
       },
@@ -106,7 +108,7 @@ const CoinPage = () => {
         paddingBottom: 0,
       },
       [theme.breakpoints.down("md")]: {
-        height: 100,
+        height: 80,
         padding: "0px 0px 10px 0px",
       },
        [theme.breakpoints.down("sm")]: {
