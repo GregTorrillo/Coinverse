@@ -87,6 +87,16 @@ const CoinPage = () => {
         alignItems: "center",
         justifyContent: "center",
       },
+       [theme.breakpoints.down("sm")]: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      },
+       [theme.breakpoints.down("xs")]: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      },
     },
     coinImage: {
       paddingBottom: 20,
@@ -98,6 +108,11 @@ const CoinPage = () => {
       [theme.breakpoints.down("md")]: {
         height: 100,
         padding: "0px 0px 10px 0px",
+      },
+       [theme.breakpoints.down("sm")]: {
+        height: 60,
+        paddingRight: 10,
+        paddingBottom: 15,
       },
       [theme.breakpoints.down("xs")]: {
         height: 60,
@@ -116,6 +131,9 @@ const CoinPage = () => {
       [theme.breakpoints.down("md")]: {
         fontSize: 26,
       },
+       [theme.breakpoints.down("sm")]: {
+        fontSize: 30,
+      },
       [theme.breakpoints.down("xs")]: {
         fontSize: 30,
       },
@@ -133,6 +151,11 @@ const CoinPage = () => {
       },
       [theme.breakpoints.down("md")]: {
         fontSize: 12,
+      },
+       [theme.breakpoints.down("sm")]: {
+        fontSize: 12,
+        padding: 20,
+        paddingTop: 0,
       },
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,
@@ -226,6 +249,9 @@ const CoinPage = () => {
       [theme.breakpoints.down("md")]: {
         height: 40,
         fontSize: 10,
+      },
+       [theme.breakpoints.down("sm")]: {
+        fontSize: 14,
       },
       [theme.breakpoints.down("xs")]: {
         fontSize: 12,
