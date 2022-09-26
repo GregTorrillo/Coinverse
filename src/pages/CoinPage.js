@@ -114,12 +114,12 @@ const CoinPage = () => {
        [theme.breakpoints.down("sm")]: {
         height: 60,
         paddingRight: 10,
-        paddingBottom: 15,
+        paddingBottom: 0,
       },
       [theme.breakpoints.down("xs")]: {
         height: 60,
         paddingRight: 10,
-        paddingBottom: 15,
+        paddingBottom: 0,
       },
     },
     coinHeading: {
