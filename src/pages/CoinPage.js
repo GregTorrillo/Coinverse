@@ -64,6 +64,10 @@ const CoinPage = () => {
         "radial-gradient(ellipse at center, #1e2060 0%, #071623 100%, #0B2033 100%)",
       border: "1px solid #4DB9F6",
       borderRadius: 10,
+       [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        height: 500,
+      },
       [theme.breakpoints.down("xs")]: {
         width: "100%",
         height: 500,
